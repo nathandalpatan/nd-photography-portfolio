@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h2>Nathan Dalpatan</h2>
+            <a href="https://linkedin.com/in/nathandalpatan" target="_blank" class="nav-linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>Nathan Dalpatan</h1>
+        <p class="tagline">Photography Portfolio</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/nathandalpatan" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="gallery">
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic1.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic2.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic3.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic4.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic5.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic6.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic7.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic8.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic9.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic10.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic11.jpg">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="pictures/pic12.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded view">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nathan Dalpatan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
